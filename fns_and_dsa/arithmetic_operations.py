@@ -7,10 +7,10 @@ def perform_operation(num1, num2, operation):
         elif operation == 'multiply':
             result = num1 * num2
         elif operation == 'divide':
-            if num2:
-                result = num1 / num2
-            else:
+            if num2 == 0:
                 result= "Unpermitted"
+            else:
+                result = num1 / num2
         return result
     else:
         print("please add an operation")
