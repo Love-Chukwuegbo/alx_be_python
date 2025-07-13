@@ -13,4 +13,4 @@ class BankAccount:
         else:
             return fundSufficient
     def display_balance(self):
-        print('Dear customer your baalance is {}' . format(self.account_balance))
+        print('Current balance: {}' . format(self.account_balance))
