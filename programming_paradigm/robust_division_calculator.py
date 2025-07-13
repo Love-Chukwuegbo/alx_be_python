@@ -8,6 +8,5 @@ def safe_divide(numerator, denominator):
         return "Error: Please enter numeric values only."
         
     else:
-        print(" The result of the division is " ,end ="")
-        return quotient
+        return " The result of the division is {}".format(quotient)
     
