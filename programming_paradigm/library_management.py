@@ -3,6 +3,8 @@ class Book:
         self.title =title
         self.author = author
         self._is_checked_out = False
+    def return_book(self):
+        self._is_checked_out = True
 
 book1= Book("Brave New World", "Aldous Huxley")
 
