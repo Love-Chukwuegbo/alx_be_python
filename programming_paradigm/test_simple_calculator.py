@@ -26,8 +26,8 @@ class TestSimpleCalculator(unittest.TestCase):
 
     def test_dvision(self):
         """Test the addition method."""
-        self.assertEqual(self.calc.divide(6, 2), 3)
-        self.assertEqual(self.calc.divide(6, -2), -3)
+        self.assertEqual(self.calc.divide(6, 2), 3.0)
+        self.assertEqual(self.calc.divide(6, -2), -3.0)
     
 
 # Remember to write additional test methods for subtract, multiply, and divide.
